@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.home-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 900px;
+    background-image: url(../img/home/home.png);
+    background-size: cover;
+}
+
+.nav {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(249, 248, 251, 0.432);
+}
+
+.nav-logo {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 60px;
+    margin-left: 110px;
+}
+
+.nav-items {
+    margin-right: 110px;
+    font-family: 'Sora', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: black;
+}
+
+.nav-item:hover {
+    color: black;
+    text-decoration: overline rgb(255, 0, 221);
+    color:  rgb(241, 116, 225);
+}
+
+.nav-item:active {
+    color:  rgb(241, 116, 225);
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    margin-left: 110px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Alata', sans-serif;
+}
+
+.home-button {
+    width: 170px;
+    font-family: 'Alata', sans-serif;
+    color: rgb(249, 248, 251);
+    background-color: rgb(241, 116, 225);
+    border:  rgb(212, 88, 196);
+    padding: 12px 4px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+
+.home-button:hover {
+    background-color: rgba(236, 114, 220, 0.603);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+    background-color: rgba(41, 40, 40, 0.932);
+    color: rgb(249, 248, 251);
+}
+
+.footer-text {
+    font-family: 'Alata', sans-serif;
+    font-size: 17px;
+}
+
+.footer-title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+}

@@ -1,0 +1,109 @@
+.blog-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 644px;
+    background-color: rgb(150, 201, 83);
+    padding: 30px;
+}
+
+.blog-text {
+    color:rgb(249, 248, 251);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+}
+
+.blog-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: 55%;
+}
+
+.blog-image {
+    background-repeat: no-repeat;
+    height: 318px;
+    width: 378px;
+    padding: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-image:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.first {
+    background-image: url(../img/blog/body-blog-first.png);
+}
+
+.second {
+    background-image: url(../img/blog/body-blog-second.png);
+}
+
+.third {
+    background-image: url(../img/blog/body-blog-third.png);
+}
+
+.date {
+    background-color: rgba(69, 71, 71, 0.658);
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.date-text {
+    text-align: center;
+    color: rgb(249, 248, 251);
+    font-family: 'Alata', sans-serif;
+}
+
+.blog-image-description {
+    background-color: rgba(69, 71, 71, 0.658);
+    height: 80px;
+    width: 312px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.blog-image-description-text {
+    color: rgb(249, 248, 251);
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+}
+
+.blog-button {
+    height: 15%;
+}
+
+.blog-button-view {
+    margin-top: 29px;
+    width: 170px;
+    height: 50px;
+    padding: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(77, 105, 21);
+    border: rgb(58, 80, 13);
+    margin-left: 15px;
+    color: rgb(249, 248, 251);
+}
+
+.blog-button-view:hover {
+    background-color: rgba(77, 105, 21, 0.548);
+}
